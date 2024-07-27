@@ -1,0 +1,96 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("School\ Timetable\ Card\ With\ Laptop\ Theme\ In\ Background\,\ School\,\ Timetable\,\ Banner\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.calculator
+{
+    width: 320px;
+    height: 490px;
+    background-color:black;
+    position: relative;
+    border-radius: 20px;
+}
+.key
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 20px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+button
+{
+  width: 65px;
+  height: 65px;
+ 
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.num
+{
+    background-color: gray;
+    color: white;
+}
+.num:hover
+{
+    background-color:rgb(180, 176, 176)
+}
+.num:active
+{
+    background-color:rgb(143, 141, 141)
+}
+.gray
+{
+    background-color:gainsboro;
+    color: black;
+}
+.gray:hover
+{
+    background-color:rgb(236, 229, 229);
+}
+.gray:active
+{
+    background-color:rgb(255, 255, 255);
+}
+#colaps
+{
+    width: 140px;
+    grid-column: span 2;
+}
+.orange
+{
+    background-color:rgb(204, 138, 14);
+}
+.orange:hover
+{
+background-color: rgb(232, 192, 117);
+}
+.orange:active
+{
+background-color: rgb(255, 166, 0);
+}
+#display
+{
+    width: 100%;
+    font-size: 45px;
+    padding: 15px;
+    color:black;
+    text-align:right;
+    margin: 0%;
+    background-color:gray;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+button:active
+{
+    opacity: 0.8;
+}
